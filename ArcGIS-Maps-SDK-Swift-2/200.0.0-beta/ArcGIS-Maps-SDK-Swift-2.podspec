@@ -10,15 +10,9 @@ Pod::Spec.new do |s|
     s.homepage = "https://developers.arcgis.com/swift/"
     s.license = { :type => 'Commercial' }
     s.author = { "Esri" => "iOSDevelopmentTeam@esri.com" }
-    
-    s.source = { 
-    	:http => "https://gisupdates.esri.com/ArcGIS_MapsSDK/200.0.0/ArcGIS-Swift-v200.0.xcframework.zip",
-    	:sha256 => "047d1a5e7a95181a418a53fdc9ddae88414df8536f7932a36cb1b375640542f1"
-    }
-    
-    s.source = { 
-    	:http => "https://gisupdates.esri.com/ArcGIS_MapsSDK/200.0.0/CoreArcGIS-Swift-v200.0.xcframework.zip",
-    	:sha256 => "620bd5af91896aa2ac5051bca077fc668b02cfea80fa15f8a3a326976dfa8870"
+
+    s.source = {
+        :http => "https://github.com/contfedorov/ArcGIS-Maps-SDK-Swift-2-Distribution/releases/download/200.0.0-beta/ArcGIS-Maps-SDK-Swift-2-Distribution-200.0.0.Beta.zip"
     }
 
     s.vendored_frameworks = "ArcGIS.xcframework", "CoreArcGIS.xcframework"
