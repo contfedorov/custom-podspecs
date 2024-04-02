@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.module_name = 'ArcGISToolkit'
     s.source_files = "Sources/ArcGISToolkit/**/*.swift"
     s.resource_bundles = {
-        "arcgis-maps-sdk-swift-toolkit_ArcGISToolkit" => [
+        "com.esri.ArcGISToolkit" => [
             "Sources/ArcGISToolkit/Resources/**/*.{xcassets,strings}",
             "Sources/ArcGISToolkit/PrivacyInfo.xcprivacy"
         ]
