@@ -12,17 +12,17 @@ Pod::Spec.new do |s|
     s.author = { "Esri" => "iOSDevelopmentTeam@esri.com" }
     s.source = { :git => "https://github.com/Esri/arcgis-maps-sdk-swift-toolkit.git", :tag => "200.3.0" }
 
-	s.dependency "ArcGIS-Swift-2", "200.3.0"
-	s.dependency "CoreArcGIS-Swift-2", "200.3.0"
+    s.dependency "ArcGIS-Swift-2", "200.3.0"
+    s.dependency "CoreArcGIS-Swift-2", "200.3.0"
 
-	s.module_name = 'ArcGISToolkit'
-	s.source_files = "Sources/ArcGISToolkit/**/*.swift"
-	s.resource_bundles = {
-		"ArcGIS-Maps-SDK-Swift-Toolkit-2-Resources" => [
-			"Sources/ArcGISToolkit/Resources/**/*.{xcassets,strings}",
-			"Sources/ArcGISToolkit/PrivacyInfo.xcprivacy"
-		]
-	}
+    s.module_name = 'ArcGISToolkit'
+    s.source_files = "Sources/ArcGISToolkit/**/*.swift"
+    s.resource_bundles = {
+        "ArcGIS-Maps-SDK-Swift-Toolkit-2-Resources" => [
+            "Sources/ArcGISToolkit/Resources/**/*.{xcassets,strings}",
+            "Sources/ArcGISToolkit/PrivacyInfo.xcprivacy"
+        ]
+    }
 
     s.swift_version = "5.7"
 
