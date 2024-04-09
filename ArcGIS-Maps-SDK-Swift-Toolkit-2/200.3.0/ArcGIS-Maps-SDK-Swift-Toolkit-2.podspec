@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
     s.homepage = "https://developers.arcgis.com/swift/toolkit/"
     s.license = { :type => "Apache-2.0", :file => "LICENSE" }
     s.author = { "Esri" => "iOSDevelopmentTeam@esri.com" }
-#     s.source = { :git => "https://github.com/Esri/arcgis-maps-sdk-swift-toolkit.git", :tag => "200.3.0" }
     s.source = { :git => "https://github.com/contfedorov/arcgis-maps-sdk-swift-toolkit.git", :tag => "200.3.0-2" }
 
     s.dependency "ArcGIS-Swift-2", "200.3.0"
