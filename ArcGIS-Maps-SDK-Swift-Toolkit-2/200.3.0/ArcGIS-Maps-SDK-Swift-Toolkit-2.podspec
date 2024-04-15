@@ -1,3 +1,9 @@
+#
+# This podspec grabs ArcGIS Maps SDK Swift Toolkit library from custom fork instead of original repo
+# (https://github.com/Esri/arcgis-maps-sdk-swift-toolkit/). Toolkit is not initially designed to be used with
+# Cocoapods, but with SPM. Since that, its code (if run from Cocoapods) can not find resource bundle file.
+# Fork contains minimal updates to overcome this (see Bundle.swift).
+#
 Pod::Spec.new do |s|
     s.name = "ArcGIS-Maps-SDK-Swift-Toolkit-2"
     s.platform = :ios, '15.0'
